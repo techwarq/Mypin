@@ -108,7 +108,7 @@ export default function Home() {
           </section>
           <section id="newsletter" className="py-16 px-6 bg-green-900">
             <div className="max-w-md mx-auto">
-              <h3 className="text-3xl font-bold mb-6 text-center">
+              <h3 className="text-2xl font-bold mb-6 text-center">
                 Join the Nerdvolution !
               </h3>
               <Link href="https://truenerds.substack.com/p/ready-player-one-in-real-life-are?r=2hq13o" className="bg-green-500 text-black mt-5 py-3 px-8 rounded-full text-lg font-semibold hover:bg-green-400 transition duration-300 roboto-mono inline-block md:px-8 md:py-3 md:text-lg">
