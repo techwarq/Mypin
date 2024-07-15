@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Roboto_Mono, Press_Start_2P  } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const robotoMono = Roboto_Mono({ subsets: ['latin'], weight: ['400', '500', '700'] });
+const pressStart2P = Press_Start_2P({ subsets: ['latin'], weight: '400' });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,8 +16,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" >
+      <body className={pressStart2P.className}>
+      <div className="bg-stone-900 text-green-500">
+        {children}</div></body>
     </html>
   );
 }
