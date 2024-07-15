@@ -30,7 +30,7 @@ export default function Home() {
             truenerds: Where Geeks, Nerds, and Tech Enthusiasts Unite!
 
           </p>
-          <Link href="truenerds-9ybq.vercel.app" className="bg-green-500 text-black py-3 px-8 rounded-full text-lg font-semibold hover:bg-green-400 transition duration-300">
+          <Link href="truenerds-9ybq.vercel.app" className="bg-green-500 text-black py-3 px-8 rounded-full text-lg font-semibold hover:bg-green-400 transition duration-300 inline-block md:px-8 md:py-3 md:text-lg roboto-mono ">
           Join the Nerdverse
           </Link>
           <section id="features" className="py-16 px-6">
@@ -111,7 +111,7 @@ export default function Home() {
               <h3 className="text-3xl font-bold mb-6 text-center">
                 Join the Nerdvolution !
               </h3>
-              <Link href="https://truenerds.substack.com/p/ready-player-one-in-real-life-are?r=2hq13o" className="bg-green-500 text-black mt-5 py-3 px-8 rounded-full text-lg font-semibold hover:bg-green-400 transition duration-300 roboto-mono">
+              <Link href="https://truenerds.substack.com/p/ready-player-one-in-real-life-are?r=2hq13o" className="bg-green-500 text-black mt-5 py-3 px-8 rounded-full text-lg font-semibold hover:bg-green-400 transition duration-300 roboto-mono inline-block md:px-8 md:py-3 md:text-lg">
           Subscribe to Newsletter
           </Link>
             </div>
