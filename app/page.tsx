@@ -30,7 +30,7 @@ export default function Home() {
             truenerds: Where Geeks, Nerds, and Tech Enthusiasts Unite!
 
           </p>
-          <Link href="truenerds-9ybq.vercel.app" className="bg-green-500 text-black py-3 px-8 rounded-full text-lg font-semibold hover:bg-green-400 transition duration-300 inline-block md:px-8 md:py-3 md:text-lg roboto-mono ">
+          <Link href="https://truenerds-9ybq.vercel.app/" className="bg-green-500 text-black py-3 px-8 rounded-full text-lg font-semibold hover:bg-green-400 transition duration-300 inline-block md:px-8 md:py-3 md:text-lg roboto-mono ">
           Join the Nerdverse
           </Link>
           <section id="features" className="py-16 px-6">
